@@ -1,0 +1,38 @@
+# Игнорировать виртуальное окружение
+venv/
+ENV/
+env/
+.venv/
+
+# Игнорировать временные файлы Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Игнорировать логи
+*.log
+
+# Игнорировать временные данные анализа
+assets/processed_sample/
+assets/processed_video/
+assets/processed_*/
+
+# Игнорировать Jupyter Notebook временные файлы
+.ipynb_checkpoints/
+
+# Игнорировать кеш Huggingface
+~/.cache/huggingface/
+C:/Users/*/.cache/huggingface/
+
+# Игнорировать датасеты, если большие
+datasets/
+
+# Исключить большие или бинарные файлы
+venv/
+*.dll
+*.lib
+*.pyd
+assets/*.mp4
+assets/**/*.mp4
+assets/**/*.wav
+
