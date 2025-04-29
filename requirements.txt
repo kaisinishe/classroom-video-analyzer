@@ -1,0 +1,27 @@
+torch
+torchvision
+torchaudio
+ultralytics
+opencv-python
+mediapipe
+matplotlib
+fpdf2
+PyYAML
+tqdm
+openai
+scikit-learn
+numpy
+soundfile
+ffmpeg-python
+onnxruntime
+transformers
+huggingface_hub
+scipy
+pyannote-audio
+requests
+tenacity
+line_profiler
+memory_profiler
+streamlit
+gradio
+# whisperx будет ставиться отдельно через Git
